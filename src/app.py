@@ -1,4 +1,5 @@
 import tkinter as tk
+import asginacion as asig
 
 # Elimina la pagina para que no se ponga una debajo de la otra
 def delete_pages():
@@ -39,6 +40,7 @@ def asig_page():
                   text="Metodó de asignación\n", 
                   font=('Bold', 20))
     lb.pack()
+    asig.Asignacion(asig_frame)
 
     asig_frame.pack()
 
