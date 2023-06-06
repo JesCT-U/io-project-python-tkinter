@@ -24,8 +24,8 @@ class Asignacion:
         rows = int(self.destinos_txt.get()) # Obtener numero de destinos
         cols = int(self.tareas_txt.get()) # Obtener numero de tareas
 
-        destinos = [f"Destino {i+1}" for i in range(rows)] # Genera lista nombres de destinos
-        tareas = [f"Tarea {i+1}" for i in range(cols)] # Genera lista nombres de tareas
+        destinos = [f"Tarea {i+1}" for i in range(rows)] # Genera lista nombres de destinos
+        tareas = [f"Destino {i+1}" for i in range(cols)] # Genera lista nombres de tareas
 
         if 'table_frame' in self.root.children:
             self.root.children['table_frame'].destroy() # Eliminar frame existente (si hay alguno)

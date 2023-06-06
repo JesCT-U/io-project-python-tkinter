@@ -1,5 +1,5 @@
 import tkinter as tk
-import asginacion as asig
+import asiginacion as asig
 
 # Elimina la pagina para que no se ponga una debajo de la otra
 def delete_pages():
