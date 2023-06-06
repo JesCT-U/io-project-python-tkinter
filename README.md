@@ -1,12 +1,10 @@
 # io-project-python-tkinter
-Projecto de Investigacion de operaciones: Transporte esquina noroeste y metodo de asiganción
+Proyecto de Investigacion de operaciones: Transporte esquina noroeste y metodo de asiganción
 
 #Instalacion
-Crear un entorno de python
-python -m venv /path/to/new/virtual/environment
 
-Activar el entorno
-.\env\Scripts\activate
+Crear un entorno de python → python -m venv /path/to/new/virtual/environment
 
-Descargar los requerimientos
-pip install -r requirements.txt
+Activar el entorno → .\env\Scripts\activate
+
+Descargar los requerimientos → pip install -r requirements.txt
