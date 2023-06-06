@@ -1,5 +1,6 @@
 import tkinter as tk
 import asiginacion as asig
+import noroeste as noro
 
 # Elimina la pagina para que no se ponga una debajo de la otra
 def delete_pages():
@@ -29,7 +30,8 @@ def noro_page():
                   text="Metodó de la esquina Noroeste\n", 
                   font=('Bold', 20))
     lb.pack()
-    
+    noro.Noroeste(noro_frame)
+
     noro_frame.pack()
 
 # Funcion que crea la pantalla Asignacion
